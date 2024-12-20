@@ -1,0 +1,13 @@
+# Ignore everything in the project
+*
+
+# Except Assets folder and its contents
+!Assets/
+!Assets/**
+
+# Ignore ExternalAssets within Assets
+Assets/ExternalAssets/
+Assets/ExternalAssets/**
+
+# Optional: Keep .gitignore tracked
+!.gitignore
