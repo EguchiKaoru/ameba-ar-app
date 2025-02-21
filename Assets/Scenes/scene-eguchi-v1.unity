@@ -489,7 +489,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_SerializedLibrary: {fileID: 11400000, guid: dff1d1ad3fbf8ec41b9b9acdab9b904b, type: 2}
   m_MaxNumberOfMovingImages: 1
-  m_TrackedImagePrefab: {fileID: 3526147402106027559, guid: c47f70038b93b474fa05f62fdbb1aaa8, type: 3}
+  m_TrackedImagePrefab: {fileID: 0}
 --- !u!114 &1727099140
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -505,8 +505,8 @@ MonoBehaviour:
   m_Camera: {fileID: 1852195754}
   m_OriginBaseGameObject: {fileID: 1727099138}
   m_CameraFloorOffsetObject: {fileID: 165621182}
-  m_RequestedTrackingOriginMode: 0
-  m_CameraYOffset: 5
+  m_RequestedTrackingOriginMode: 1
+  m_CameraYOffset: 0.5
 --- !u!4 &1727099141
 Transform:
   m_ObjectHideFlags: 0
@@ -532,9 +532,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1727099138}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18ae91195c6ffb14c9d9f950e739957b, type: 3}
+  m_Script: {fileID: 11500000, guid: 10b9ccd2222ce5041a5a43b48f311d42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  arTrackedImageManager: {fileID: 1727099139}
+  markerNameToPrefab:
+  - name: marker01
+    prefab: {fileID: 919132149155446097, guid: 86fee093bb2676d4884157b2bc4f5e51, type: 3}
+  - name: "\u57FA\u790E_DD 1"
+    prefab: {fileID: 919132149155446097, guid: 31c82d6936adb6d41990581dcc1c4792, type: 3}
 --- !u!1 &1838810918
 GameObject:
   m_ObjectHideFlags: 0
