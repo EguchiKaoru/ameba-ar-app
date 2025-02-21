@@ -30,9 +30,6 @@ MemoryCaptures/
 !ProjectSettings/
 !Packages/
 
-# 不要なサードパーティアセットを除外する場合
-Assets/ExternalAssets/
-
 # Git管理しないが、手元に残したいファイル
 .DS_Store
 *.apk
