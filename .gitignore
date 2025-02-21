@@ -1,13 +1,43 @@
-# Ignore everything in the project
-*
+# Unityプロジェクトの基本的な無視設定
 
-# Except Assets folder and its contents
+# Unityが生成する一時ファイルやキャッシュ
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+MemoryCaptures/
+
+# プラグインやキャッシュの設定
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+
+# Gitで管理すべきフォルダを明示
 !Assets/
-!Assets/**
+!ProjectSettings/
+!Packages/
 
-# Ignore ExternalAssets within Assets
+# 不要なサードパーティアセットを除外する場合
 Assets/ExternalAssets/
-Assets/ExternalAssets/**
 
-# Optional: Keep .gitignore tracked
+# Git管理しないが、手元に残したいファイル
+.DS_Store
+*.apk
+*.unitypackage
+*.log
+
+# .gitignore ファイル自体はGitで管理
 !.gitignore
